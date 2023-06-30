@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic');*/
+
+
+body {
+   
+    margin: 0%;
+    padding: 0%;
+    min-width: 320px;
+    
+   
+    
+}
+
+
+.navbar {
+    width: 100%;
+    height: 195px;
+    display: flex;
+    background: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.navbar-brand {
+    justify-self: start;
+    margin-top: 3%;
+    margin-bottom: 2.5%;
+    margin-left: 2%; /*Можна зробити і 4%*/
+    margin-right: 3%;
+}
+
+.navbar-phone{
+    color: #656462;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+
+#catalog-dots{
+    margin-left: 5%;
+    margin-top: 2.5%;
+    width: 60px;
+    height: 54.027px;
+    flex-shrink: 0;
+    background: #BF9573;
+}
+
+
+#catalog{
+    margin-left: 0.1%;
+    margin-top: 2.5%;
+    width: 247px;
+    height: 54.027px;
+    flex-shrink: 0;
+    background: #BF9573;
+}
+
+#search-form{
+    margin-top: 2.5%;
+    margin-left: 3%;
+}
+
+
+#search-mark img{
+    height: 50px;
+    margin-bottom: 1%;
+}
+
+
+#nav-types{
+    margin-left: 34%;
+    margin-top: 1.6%;
+    margin-bottom: 134px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: top;
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration:none;
+     
+    
+    
+}
+
+
+.user-links{
+    margin-bottom: 100px;
+}
+
+
+
+
+.form-control {
+    display: flex;
+    justify-content: center;
+    width: 637px;
+    height: 55px;
+    flex-shrink: 0;
+    border: 1px solid #BF9573;
+    background: #EFEDED;
+    
+}
+
+
+#btn-txt{
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+.d-flex{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.my-carusel {
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    background-color: rgba(191, 149, 115, 0.31);
+     /* Напівпрозорий, темний фон */
+    z-index: 2;
+}
+
+.overlay-content {
+    margin-top: 5%;
+    color: #FFF;
+}
+
+
+
+.my-carusel .carousel-item {
+    display: flex;
+    max-height: 500px; /*Може бути й 650px*/
+}
+
+
+.my-carusel .carousel-item img {
+    object-fit: cover;
+}
+
+
+
+
+
+#main{
+    margin-top: 7%; /*Може бути й 9%*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+
+#main-nav{
+    display: flex;
+    margin-left: 5%;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 74px;
+    position: relative;
+}
+
+
+#main-nav a:hover::before{
+    transform: scaleX(1);
+    transition: transform 0.25s;
+}
+
+
+#main-nav a::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #BF9573;
+    position: absolute;
+    left:0; bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+
+#main-p{
+    display: flex;
+    margin-left: 5%;
+}
+
+#main-p p{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 46px;
+}
+
+#main-p_2{
+    display: flex;
+    margin-left: 5%;
+}
+
+
+#main-p_2 p{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 108px;
+}
+
+#main-p_3{
+    display: flex;
+    margin-left: 5%;
+}
+
+
+#main-p_3 p{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 108px;
+}
+
+
+#main-content-mr {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#main h1{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    line-height: 24px;
+    text-transform: uppercase;  
+}
+
+
+#our-blog p{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    line-height: 24px;
+    text-transform: uppercase;  
+    margin-bottom: 96px;
+    
+}
+
+
+
+.blog-content{
+    margin-bottom: 30%;
+}
+
+#our-blog-cards {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.blog-card{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.06);
+    transition: all .3s;
+    /*margin-left: 10%;*/
+    width: 350px;
+    height: 233px;
+       
+}
+
+
+.blog-card:hover{
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+    width: 399px;
+    height: 487px;
+}
+
+
+.blog-thumb a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+}
+
+.blog-thumb img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+     
+    
+}
+
+
+.blog-details {
+    padding: 20px;
+}
+
+
+.blog-details h4 a{
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #BF9573;
+    font-size: 20px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    
+
+}
+
+
+.blog-details p {
+    
+    margin-bottom: 20px;
+    color: #999;
+    
+    overflow: hidden;
+    color: #000;
+    font-size: 18px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+
+
+
+#about{
+    width: 100%;
+    height: fit-content;
+    background: url(../img/Vector\ ovca.png);
+    background-repeat: no-repeat;
+    background-position: right -10em bottom -100px;
+    background-size: 65%; /*Може бути й 55%*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed; - Ефект який робить картинку прокручуваною*/
+    
+    
+}
+
+
+#about h1{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    line-height: 24px;
+    text-transform: uppercase;  
+}
+
+
+#about h2{
+    margin-top: 4%;
+    margin-left: 7%;
+    color: #BF9573;
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+#about-h2{
+    color: #BF9573;
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+#about pre{
+    margin-top: 1.7%;
+    margin-left: 3.8%;
+    color: #000;
+    font-size: 18px;
+    font-family: Cormorant Garamond;
+    font-weight: 500;
+    line-height: 24px;
+    /*font-weight: bold;*/
+    
+}
+
+
+
+
+#sticks{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+#footer{
+    height: fit-content;
+    width: 100%;
+}
+
+
+
+
+
+#copyright{
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 20px;
+    border-top: 1px solid #BF9573;
+    border-bottom: 1px solid #BF9573;
+    background: rgba(217, 217, 217, 0.52);
+   
+}
+
+#main-content-mr{
+    display: flex;
+    padding-left: 20px;
+}
+.product-card{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+    transition: all .3s;
+    width: 215px;
+}
+
+
+
+.product-card:hover{
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+    width: 255px; /*275px*/
+}
+
+.product-thumb a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 400px;*/
+    padding: 20px;
+}
+
+.product-thumb img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-details h4 a{
+   
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+
+}
+
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+
+
+}
+
+
+.product-price small {
+    font-weight: 400;
+    margin-right: 5px;
+    color: #000;
+    font-size: 18px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.product-links a {
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+#footer_2{
+    background: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#footer_2 h6{
+    color: #BF9573;
+    font-size: 18px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.phone-number{
+    color: #656462;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#footer_2 h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+#order-phone{
+    color: #505050;
+    font-size: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 2%;
+}
+
+
+#email-text{
+    color: #000;
+    font-size: 14px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 2%;
+}
+
+
+#footer_2  a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+
+
+#footer_2{
+    border-top: 1px solid #BF9573;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#checkbox{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #BF9573;
+    background: #EFEDED;
+}
+
+
+#label{
+    color: #000;
+    font-size: 14px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#email{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

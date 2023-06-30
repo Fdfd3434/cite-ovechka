@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Головна</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        
+
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+           
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+
+
+    <body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="svg/ovechka_logo.svg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Замовити дзвінок
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+        <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="svg/ovechka_logo.svg" alt="Лого" width="375" height="106">
+                  </a>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="navbar-phone">+38 (098) 474 78 78</div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">Привіт</span>
+                    </button>
+                </div>
+              <button id="catalog-dots" type="button" class="btn btn-outline-secondary"><img src="svg/Group 77.svg" alt=""></button>
+              <button id="catalog" type="button" class="btn btn-outline-secondary"><span id="btn-txt">Каталог</span></button>
+              <form id="search-form" class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Пошук">
+                  <a id="search-mark" href="#"><img src="svg/Vector.svg" class="btn btn-outline" type="submit"/></a>
+              </form>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="nav-types" class="navbar-nav fixed-top me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Доставка</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Оплата</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Гарантії</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Про нас</a>
+                  </li>
+                  
+                    
+                </ul>
+                <div class="user-links">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                
+              </div>
+            </div>
+          </nav>-->
+
+          <!--<div id="slider" class="conteiner">
+            
+            <div class="swiper">
+              
+              <div class="swiper-wrapper">
+                
+                
+                <div class="swiper-slide"><img src="img/home1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/car2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/car3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/car4.jpg" alt=""></div>
+               
+              </div>
+              
+              <div class="swiper-pagination"></div>
+            
+              
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            
+              
+            </div>
+     
+
+          </div>-->
+
+          <div class="conteiner-fluid my-carusel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/car1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/car2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/photo1.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <h3>Ціна:</h3>
+                <p>Деяка інформація тут</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div id="main" class="conteiner-fluid">
+             <h1>Популярні товари</h1>
+          </div>
+
+          <div id="main-nav" class="conteiner-fluid">
+            <a href="#">Для барів і ресторанів</a>
+            <a href="#">Для авто</a>
+            <a href="#">Для дітей</a>
+            <a href="#">Для лазні</a>
+            <a href="#">Для дому</a>
+          </div>
+
+          <div id="main-p" class="conteiner-fluid">
+            <p>Новинки</p>
+          </div>
+          
+          
+
+          <section class="main-content">
+            <div id="main-content-mr" class="conteiner">
+              <div class="row">
+                <div class="col-lg-4 .col-sm-6 mb-3">
+                  <div class="product-card">
+                    <div class="product-thumb">
+                       <a href="#"><img src="img/main_1.png" alt=""></a>
+                    </div>
+                    <div class="product-details">
+                      <h4><a href="#">Килим з 4-х овечих шкур (овчини)</a></h4>
+                      <div class="product-bottom-details d-flex justify-content-between">
+                        <div class="product-price">
+                           <small>13230 грн.</small>
+                           
+                        </div>
+                        <div class="product-links">
+                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                          <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 .col-sm-6 mb-3">
+                  <div class="product-card">
+                    <div class="product-thumb">
+                       <a href="#"><img src="img/main_2.png" alt=""></a>
+                    </div>
+                    <div class="product-details">
+                      <h4><a href="#">Килим з 4-х овечих шкур (овчини)</a></h4>
+                      <div class="product-bottom-details d-flex justify-content-between">
+                        <div class="product-price">
+                           <small>13230 грн.</small>
+                           
+                        </div>
+                        <div class="product-links">
+                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                          <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 .col-sm-6 mb-3">
+                  <div class="product-card">
+                    <div class="product-thumb">
+                       <a href="#"><img src="img/main_3.png" alt=""></a>
+                    </div>
+                    <div class="product-details">
+                      <h4><a href="#">Килим з 4-х овечих шкур (овчини)</a></h4>
+                      <div class="product-bottom-details d-flex justify-content-between">
+                        <div class="product-price">
+                           <small>13230 грн.</small>
+                           
+                        </div>
+                        <div class="product-links">
+                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                          <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+          </section>
+
+          <div id="main-p_2" class="container-fluid">
+            <p>Шкури і Хутро</p>
+          </div>
+           
+          <!--Тут повинні бути товари-->
+
+          <div id="main-p_3" class="container-fluid">
+            <p>Сувеніри</p>
+          </div>
+            
+          <!--Тут повинні бути товари-->
+
+          <div id="sticks" class="conteiner-fluid">
+              <a class="link" href="#"><img src="" alt=""></a>
+
+          </div>
+
+
+          <div id="our-blog" class="conteiner-fluid">
+            <p>Наш блог</p>
+          </div>
+
+          <section class="blog-content">
+            <div id="our-blog-cards" class="conteiner">
+               <div class="row">
+                  <div class="col-lg-4 .col-sm-6 mb-3">
+                    <div class="blog-card">
+                      <div class="blog-thumb">
+                         <a href="#"><img src="img/our-blog_1.png" alt=""></a>
+                      </div>
+                      <div class="blog-details">
+                        <h4><a href="#">Багаторічний досвід роботи — наша перевага</a></h4>
+                        <p>Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 .col-sm-6 mb-3">
+                    <div class="blog-card">
+                      <div class="blog-thumb">
+                         <a href="#"><img src="img/our-blog_2.png" alt=""></a>
+                      </div>
+                      <div class="blog-details">
+                        <h4><a href="#">Багаторічний досвід роботи — наша перевага</a></h4>
+                        <p>Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 .col-sm-6 mb-3">
+                    <div class="blog-card">
+                      <div class="blog-thumb">
+                         <a href="#"><img src="img/our-blog_3.png" alt=""></a>
+                      </div>
+                      <div class="blog-details">
+                        <h4><a href="#">Багаторічний досвід роботи — наша перевага</a></h4>
+                        <p>Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...</p>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+          </section>
+
+          
+
+          <div id="about" class="conteiner-fluid">
+            <h1>Про нас</h1>
+
+            <h2>Багаторічний досвід роботи — наша перевага</h2>
+            <pre>
+              Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю
+              можемо переконуватНаш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з
+              впевненістю і гордістю можемо переконуват...Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на
+              світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть
+              не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...Наш інтернет-магазин вийшов на ринок товарів не вчора,
+              не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...Наш інтернет-магазин вийшов на
+              ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...Наш
+              інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю
+              можемо переконувати......
+            </pre>
+
+            <h2 id="about-h2">Багаторічний досвід роботи — наша перевага</h2>
+
+            <pre id="about-pre">
+              Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю
+              можемо переконуватНаш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на світ у 2007 році. Тому з
+              впевненістю і гордістю можемо переконуват...Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть не рік. Ми з'явилися на
+              світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...Наш інтернет-магазин вийшов на ринок товарів не вчора, не місяць тому, і навіть
+              не рік. Ми з'явилися на світ у 2007 році. Тому з впевненістю і гордістю можемо переконуват...Наш інтернет-магазин вийшов на ринок товарів не вчора,
+              не місяць тому, і навіть не рік. 
+            </pre>
+
+         </div>
+
+
+          <footer class="text-center text-lg-start bg-light text-muted">
+            
+            <!--<section id="footer_1" class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              
+              <div>
+                <a href="https://www.youtube.com/watch?v=QYwI3LRCnRE&ab_channel=%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80%D0%BF%D0%BE%D0%B6%D0%B8%D1%82%D1%82%D1%8E" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              
+            </section>-->
+            <!-- Section: Social media -->
+          
+            <!-- Section: Links  -->
+            <section id="footer_2" class="conteiner-fluid">
+              <div class="container text-center text-md-start mt-5 mb-4">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      <a id="footer-logo" href="#"><img src="svg/ovechka_logo.svg"></a>
+                    </h6>
+                    <h6 class="text-uppercase fw-bold">
+                      Наша адреса:
+                    </h6>
+                    <p>м. Тернопіль, Ринок Західний, вулиця Об'їзна, 12</p>
+                    <small class="phone-number">+38 (098) 474 78 78</small>
+                    <div class="dropdown-center">
+                      <a id="order-phone" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Замовити дзвінок
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Action two</a></li>
+                        <li><a class="dropdown-item" href="#">Action three</a></li>
+                      </ul>
+                    </div>
+                    <small id="email-text">san4ezzzpro7@gmail.com</small>
+                  </div>
+                  <!-- Grid column -->
+          
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Категорії
+                    </h6>
+                    
+                      <a href="#!" class="text-reset">Для авто</a><br>
+                                       
+                      <a href="#!" class="text-reset">Для дітей</a><br>
+                                      
+                      <a href="#!" class="text-reset">Для лазні</a><br>
+                                        
+                      <a href="#!" class="text-reset">Для дома</a><br>
+                                       
+                      <a href="#!" class="text-reset">Для барів та ресторанів</a><br>
+                                    
+                      <a href="#!" class="text-reset">Для кухні</a><br>
+                      <a href="#!" class="text-reset">Подарунки</a><br>
+                      <a href="#!" class="text-reset">Одяг та Взуття</a><br>
+                      <a href="#!" class="text-reset">Сувеніри</a>
+
+                    
+                  </div>
+                  <!-- Grid column -->
+          
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                       Інформація
+                    </h6>
+                    
+                      <a href="#!" class="text-reset">Про доставку</a><br>
+                                       
+                      <a href="#!" class="text-reset">dsfghdfjg</a><br>
+                                        
+                      <a href="#!" class="text-reset">Orders</a><br>
+                                       
+                      <a href="#!" class="text-reset">Зворотній зв'язок</a><br>
+                      <a href="#!" class="text-reset">Повернення товару</a><br>
+                      <a href="#!" class="text-reset">Карта сайту</a><br>
+                      <a href="#!" class="text-reset">Виробники</a><br>
+                      <a href="#!" class="text-reset">Подарункові сертифікати</a><br>
+                      <a href="#!" class="text-reset">Акції</a>
+                    
+                  </div>
+                  <!-- Grid column -->
+          
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Підписуйтесь на новини
+                   </h6>
+                    <form>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" id="checkbox" class="form-check-input" id="exampleCheck1" style="margin-right: 5%">
+                        <label id="label" class="form-check-label" for="exampleCheck1" style="margin-top: 2%">Я прочитав політика безпеки</label>
+                      </div>
+                      <!--<div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>-->
+                      <input type="email" id="email" class="form-control" placeholder="E-Mail" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <h5 class="text-uppercase fw-bold mb-4">
+                      Ми в Соціальних Мережах:
+                   </h5>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+          
+            
+          </footer>
+
+
+
+          <div id="copyright" class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Інтернет магазин ➤Ovechka.shop◀ © 2023
+          </div>
+
+           
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/d35b698ca5.js" crossorigin="anonymous"></script>
+        <script src="scripts/script.js"></script>
+    </body>
+
+
+
+</html>
