@@ -185,7 +185,7 @@ body {
 
 #main-nav{
     display: flex;
-    margin-left: 5%;
+    margin-left: 0.3%;
 }
 
 #main-nav a{
@@ -476,11 +476,14 @@ body {
 #main-content-mr{
     display: flex;
     padding-left: 20px;
+    /*justify-content: space-between;*/
+    justify-content: space-evenly;
 }
 .product-card{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
     transition: all .3s;
     width: 215px;
+    margin-right: 112px;
 }
 
 
