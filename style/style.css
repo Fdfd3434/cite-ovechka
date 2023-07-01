@@ -239,6 +239,7 @@ body {
 #main-p_2{
     display: flex;
     margin-left: 5%;
+    margin-bottom: 1%;
 }
 
 
@@ -257,6 +258,18 @@ body {
 #main-p_3{
     display: flex;
     margin-left: 5%;
+}
+
+
+#arrows{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#arrows a
+{
+    color: rgba(191, 149, 115, 1);
+    text-decoration: none;
 }
 
 

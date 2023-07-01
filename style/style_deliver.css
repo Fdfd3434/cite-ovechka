@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    min-width: 320px;
+}
+
+
+#main{
+    display: flex;
+    background: url(../img/fon\ kategorii.png);
+    background-repeat: no-repeat;
+    
+}
+
+#main h2{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.5px;
+    text-transform: uppercase;
+    margin-top: 91px;
+    margin-left: 169px;
+}
+
+#order-info{
+    
+    display: flex;
+    margin-top: 15%;
+    background-color: #000;
+    margin-left: 169px;
+    margin-right: 170px;
+    width: 1591px;
+    height: 993px;
+    background: url(../img/Delivery-Vector-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+#pes{
+    display: flex;
+    width: 480px;
+    height: 393px;
+    border: 1px solid #D9D9D9;
+    background: rgba(255, 255, 255, 0.67);
+    filter: blur(1px);
+    justify-content: center;
+}
+
+#order-info h2{
+    color: #000;
+    font-size: 30px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.5px;
+    text-transform: uppercase;
+    margin-right: 15%;
+}
+
+#pes img{
+    margin-top: 25px;
+    
+}
+
+#pes p{
+    color: #BF9573;
+    font-size: 20px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.5px;
+    text-transform: uppercase;
+    margin-top: 20%;
+}
